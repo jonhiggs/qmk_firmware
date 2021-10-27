@@ -31,10 +31,28 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *         D          X X X X
      */
 
-    [_BASE] = LAYOUT(
-        KC_F1,    KC_F2,            KC_F3,   KC_F4,
-             KC_UP,                 KC_1,    KC_2,    KC_3,    KC_4,
+/* SATURN
+          F1  F2,       SELECT,  START,
+
+            UP,          1,  X,  L,  R,
+        LEFT, RGHT,
+           DOWN,         5,  Y,  B,  A
+    )
+ */
+
+/* CUSTOM
+          F1  F2,       SELECT,  START,
+
+            UP,          A,  B,  X,  Y,
+        LEFT, RGHT,
+           DOWN,         LS, RS, LTr,RTr
+    )
+ */
+
+    [0] = LAYOUT(
+        KC_F1,    KC_F2,      KC_RSFT, KC_ENT,
+             KC_UP,           KC_X,    KC_Z,    KC_S,    KC_R,
         KC_LEFT, KC_RGHT,
-             KC_DOWN,               KC_5,    KC_6,    KC_7,    KC_8
+            KC_DOWN,          KC_A,    KC_Q,    KC_W,    KC_E
     )
 };
