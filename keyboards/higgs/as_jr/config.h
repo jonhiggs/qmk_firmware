@@ -21,6 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#include "config_common.h"
 
 /* USB Device descriptor parameter */
+#define MANUFACTURER    "Jon Higgs"
+#define PRODUCT         "as-jn"
 #define VENDOR_ID     0xFEED
 #define PRODUCT_ID    0x0002
 #define DEVICE_VER    0x0001
@@ -43,7 +45,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #define MATRIX_ROW_PINS { D0, A2, D4 }
 #define MATRIX_COL_PINS { C2, D6, B2, B1 }
-#define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
