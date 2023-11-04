@@ -1,5 +1,10 @@
 {
     "keyboard_name": "as-jr",
+    "usb": {
+        "device_version": "0.0.2",
+        "pid": "0x0001",
+        "vid": "0xFEED"
+    },
     "url": "",
     "maintainer": "Jon Higgs",
     "width": 5,
@@ -10,9 +15,14 @@
                 {"label": "k00", "x": 0, "y": 0},
                 {"label": "k01", "x": 1, "y": 0},
                 {"label": "k02", "x": 2, "y": 0},
+                {"label": "k03", "x": 3, "y": 0},
 
                 {"label": "k10", "x": 0, "y": 1, "w": 1.5},
-                {"label": "k12", "x": 1.5, "y": 1, "w": 1.5}
+                {"label": "k11", "x": 0, "y": 2, "w": 1.5},
+                {"label": "k12", "x": 0, "y": 3, "w": 1.5},
+                {"label": "k20", "x": 1, "y": 1, "w": 1.5},
+                {"label": "k21", "x": 1, "y": 2, "w": 1.5},
+                {"label": "k22", "x": 1, "y": 3, "w": 1.5}
             ]
         }
     }
